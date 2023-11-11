@@ -1,0 +1,49 @@
+.borderBox, *, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(90deg, darkcyan, rgb(0, 54, 54));
+}
+.container figure {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  transition: 5s;
+  border: 2px solid black;
+  transform-style: preserve-3d;
+  margin: 50px;
+}
+.container figure::after {
+  content: "";
+  display: flex;
+  width: 10px;
+  height: 100%;
+  background-color: rgb(48, 48, 48);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: left;
+  transform: rotateY(90deg);
+}
+.container figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.container figure img:nth-of-type(1) {
+  transform: translateZ(-10px);
+}
+.container figure:hover {
+  transform: perspective(800px) rotateY(180deg);
+}/*# sourceMappingURL=master.css.map */
