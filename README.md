@@ -5,9 +5,9 @@ https://github.com/alinajafiweb/thickGallery/assets/147813870/d83967c0-cf37-472d
 
 
 
-- [Demo Project](https://aliafrouz.github.io/thickGallery/)
+- [Demo Project](https://alinajafi-developer.github.io/thickGallery/)
 
-- Developed by Ali Afrouz
+- Developed by Ali Najafi
 
 - Created - 2023-11-11
 
@@ -17,4 +17,4 @@ https://github.com/alinajafiweb/thickGallery/assets/147813870/d83967c0-cf37-472d
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/aliafrouz_com) and [linkedin](https://www.linkedin.com/in/aliafrouz/)
+- How to reach me : with my [instagram](https://www.instagram.com/alinajafi_developer) and [linkedin](https://www.linkedin.com/in/alinajafi-developer/)
